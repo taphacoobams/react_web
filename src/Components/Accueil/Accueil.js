@@ -1,8 +1,8 @@
-import React from 'react';
+import React  from 'react';
 import LeftSidebar from '../Bar/LeftSidebar';
 import Navbar from '../Bar/Navbar';
+function Accueil() {
 
-function App() {
   return (
     <div className='container'>
       <LeftSidebar />
@@ -11,4 +11,4 @@ function App() {
   );
 }
 
-export default App;
+export default Accueil;

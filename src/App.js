@@ -20,10 +20,6 @@ function App() {
           <Route path="/messages" element={<Messages />} />
           <Route path="/profile" element={<Profil />} />
           <Route path="/post" element={<Post />} />
-<<<<<<< HEAD
-=======
-          <Route path="/parametres" element={<Parametres />} />
->>>>>>> f33d6ab4d94e3deb841d2ebf696304584a05a758
         </Routes>
       </div>
     </Router>

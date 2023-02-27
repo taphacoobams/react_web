@@ -14,9 +14,10 @@ function Messages() {
   return (
     <div>
       <Navbar />
+      <div className="message-container">
       <form onSubmit={handleSubmit}>
       <div>
-        <label htmlFor="name">Name:</label>
+        <label htmlFor="name">Nom:</label>
         <input
           type="text"
           id="name"
@@ -41,8 +42,9 @@ function Messages() {
           onChange={(event) => setMessage(event.target.value)}
         ></textarea>
       </div>
-      <button type="submit">Send</button>
-    </form>
+      <button type="submit">Envoyer</button>
+    </form>      
+      </div>   
     </div>   
   );
 }
