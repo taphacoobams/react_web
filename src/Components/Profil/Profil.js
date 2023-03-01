@@ -9,7 +9,7 @@ function Profil(props) {
       <Navbar />
       <div className="profile-container">
       <div className="profile-image">
-        <img src={imageUrl} alt="Profile" />
+        <img src="profile.jpg" alt="Profile" />
       </div>
       <div className="profile-name">{name}</div>
       <div className="profile-bio">{bio}</div>

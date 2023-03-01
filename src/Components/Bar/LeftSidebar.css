@@ -1,14 +1,14 @@
 .left-sidebar {
-  height: 375px;
+  height: 430px;
   width: 250px;
   position: fixed;
-  top: 139px;
+  top: 124px;
   left: 60px;
-  background-color: yellow;
-  color: green;
+  background-color: green;
+  color: yellow;
   overflow-x: hidden;
-  padding-top: 30px;
-  padding-bottom: 30px;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 
 .left-sidebar ul {
@@ -22,7 +22,7 @@
   align-items: center;
   gap: 8px;
   padding: 10px 16px;
-  background-color: yellow;
+  background-color: green;
 }
 
 .left-sidebar li .icone {

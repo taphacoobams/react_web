@@ -29,13 +29,13 @@
   .signup-form .form-group label {
     font-weight: bold;
     margin-bottom: 10px;
-    color: brown;
+    color: black;
   }
   
   .signup-form .form-group input {
     width: 260px;
     padding: 10px;
-    border-radius: 6px;
+    border-radius: 12px;
     border: 1px solid #dddfe2;
     font-size: 16px;
   }
@@ -43,8 +43,8 @@
   .signup-form button{
     padding: 10px;
     border: none;
-    border-radius: 6px;
-    background-color: red;
+    border-radius: 12px;
+    background-color: greenyellow;
     color: #fff;
     font-size: 16px;
     cursor: pointer;
@@ -52,4 +52,8 @@
   
   .signup-form p{
     font-size: 14px;
+  }
+  
+  .link{
+    text-decoration: none;
   }

@@ -75,7 +75,7 @@ function Inscription() {
         <button type="submit">Valider</button>
         <p>
           Avez-vous déja un compte?{' '}
-          <Link className='connect' to="/">Se connecter.</Link>
+           <Link className="link" to="/">Se connecter</Link>.
         </p>
       </form>
     </div>

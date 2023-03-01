@@ -61,7 +61,7 @@ function Connexion(props) {
           </div>
           <button className="login" type="submit">Se connecter</button>
         </form>
-        <p>Vous n'avez pas de compte ? <Link to="/register">Inscrivez-vous ici</Link>.</p>
+        <p>Vous n'avez pas de compte? <Link className="link" to="/register">Inscrivez-vous ici</Link>.</p>
       </div>
     </div>
   );
